@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Sansita&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Sansita", sans-serif;
+}
+
+body {
+    background: #081d45;
+    Color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+}
+
+main {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: #ffcc57;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+ .hre{
+    color: #ffcc57 !important;
+    font-size: 26px !important;
+    width: 22%;
+}
+
+main .redes-sociais {
+    display: flex;
+    align-content: center;
+}
+
+
+main .redes-sociais a {
+    text-decoration: none;
+}
+
+main .redes-sociais img {
+    width: 36px;
+    margin-left: 3rem;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .redes-sociais a:first-child img {
+    margin-left: 0;
+}
+
+main .alternativa {
+    margin-top: 1rem;
+}
+
+main .alternativa span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 0.3);
+    position: relative;
+}
+
+main .alternativa span::before, main .alternativa span::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: rgb(255, 255, 255, 0.3);
+}
+
+main .alternativa span::after {
+    left: 50px;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input {
+    background: #000919;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid #040B18;
+    border-radius: 8px;
+}
+
+main form input[type="Enviar"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #ffcc57;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+    align-items: center;
+}
+
+main form input[type="Enviar"]:hover {
+    background: #b9933b;
+}
+
+section.images {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}

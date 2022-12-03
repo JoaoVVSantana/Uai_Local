@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Crie sua Conta</h1>
+        <div class="redes-sociais">
+        <a href="#">
+            <a href="https://accounts.google.com/v3/signin/identifier?dsh=S-32811789%3A1666226356044580&hl=pt-br&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQDHYWoL2d9l1wreBZK4G45S4FyElm-FrUBXbYpYzkEW_itsKIv6wd-0dgTNWxcJIvWlyhb0GeK2"><img src="assets/google.png" alt="Google"> </a>
+        </a>
+        <a href="#">
+            <a href="https://www.instagram.com/accounts/login/"><img src="assets/Instagram.png" alt="Instagram"    ></a>
+        </a>
+        <a href="#">
+            <a href="https://www.linkedin.com/login/pt"><img src="assets/linkedin.png" alt="Linkedin"></a>
+        </a>
+        </div>
+
+        <div class="alternativa">
+        <span>OU</span>
+        </div>
+        <form action="">
+            <label for="Nome da Loja">
+                    <span>Nome da Loja</span>
+                    <input type="text" id="Nome da Loja" nome="Nome da Loja">
+            </label>
+
+            <label for="E-mail">
+                <span>E-mail</span>
+                <input type="Email" id="Email" nome="Email">
+            </label>
+
+            <label for="Senha">
+                <span>Senha</span>
+                <input type="password" id="Senha" nome="Email">
+            </label>
+
+            <select id="Nicho">
+                <option value="Beleza">Beleza</option>
+                <option value="Comidas">Comidas</option>
+                <option value="Reparos">Reparos</option>
+                <option value="Roupas">Roupas</option>
+            </select>
+
+            <label for="Descricao">
+                <span>Descrição</span>
+                <input type="text" id="Descricao" nome="Descricao">
+            </label>
+
+        <button type="button" onclick="novoUsuario()">Registrar</button>
+        </form>
+    </main>
+    <section class="images">
+        <img src="assets/logo2.png" alt="logo">
+    </section>
+
+    <a href="../../Home/Home.html" class="hre">Pagina Inicial</a>
+    <script src="usuarios.js"></script>
+    <script src="cad.js"></script>
+</body>
+</html>

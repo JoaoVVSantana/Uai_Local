@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--Link css comum-->
+    <link rel="stylesheet" href="../Categorias Comidas/Pizzaria Do Luis/Header Pronto/StyleCategorias.css">
+    
+    <title>Home's Pizzaria</title>
+
+    <style>
+      .logo {
+        width: 60px;
+        margin: 0px 16px;
+      }
+    </style>
+</head>
+<body>
+    <!--Início navbar-->
+    <header class="bg-light" id="navbarla">
+        <nav class="navbar navbar-expand-lg px-3">
+            <div class="container-fluid nopadding">
+                <a class="navbar-brand" id="logo" href="../Home/Home.html"><img src="../imagens/logoUaiLocal.jpeg" width="160" height="60" alt="Logo UAI LOCAL" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active sombra" href="../Home/Home.html">Página Inicial</a>
+                    </li>
+                        <li class="nav-item pt-2 barra">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link active sombra" href="../Sobre Pronto/Sobre Pronto/Sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item pt-2 barra">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link active sombra" href="../Cadastro_Daniel-Lucas/cadastro/index.html">Faça o cadastro da sua empresa</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+    <!--Fim navbar-->
+
+    <!--Corpo-->
+      <section id="CONTEUDO">
+        <div id="titulo" class="titulo">
+            <h1>Home's Pizzaria</h1>
+        </div>
+
+        <!--Início do carrosel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <!--Local para inserir itens-->
+          <div class="carousel-inner">
+        
+            <div class="carousel-item active"> <!--Primeiro item-->
+              <!--Inserindo colunas-->
+              <div class="container text-center">
+                <img class="fotos" src="../Header Pronto/imagem/imagem1.jpeg"  alt="">
+              </div>
+              <!--Fim das colunas-->
+            </div><!--Fim do primeiro item-->
+
+            <div class="carousel-item"><!--Início do segundo item do carrosel-->
+              <!--Início das colunas-->
+               <div class="container text-center">
+                  <img class="fotos" src="../Header Pronto/imagem/Imagem02.jpeg" alt="">
+                </div>
+              <!--Fim das colunas-->
+            </div><!--Fim do segundo item do carrosel-->
+
+            <div class="carousel-item"><!--Início do segundo item do carrosel-->
+              <!--Início das colunas-->
+               <div class="container text-center">
+                    <img class="fotos" src="../Header Pronto/imagem/imagem03.jpeg" alt="">
+                </div>
+              <!--Fim das colunas-->
+            </div><!--Fim do segundo item do carrosel-->
+
+          </div>
+          <!--Fim do Local para inserir itens-->
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon pra" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon pro" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!--Fim do carrosel-->
+      </section>
+
+        
+      
+        <section id="DESCRICAO">
+          <div>
+            <span><strong>Descrição:</strong> A Homes Pizzaria se localiza no bairro Barreiro em Belo Horizonte e está no mercado com uma incrível variedade de sabores de pizza há 5 anos. 
+              <p>Trabalham com delivery e contratos para rodízios em eventos.</p> </span>
+          </div>
+       
+        </section>
+        <section id="Redes_Sociais">
+          <div class="titulo_redes">
+            <span>Redes sociais:</span>
+            <div class="icones">
+              
+              
+              <a href=https://www.instagram.com><img class="logo" src="../imagens/instagram (2).svg" alt="icone Instagram"></a>
+              <a href="https://www.whatsapp.com"><img class="logo" src="../Categorias Beleza/BelezaEstabelecimentos/LojaBelezaSalão/icones/whatsapp (1).svg" alt="icone"></a>
+             
+            </div>
+          </div>
+        
+        </section>
+        
+        
+        
+
+    <!--Fim corpo-->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script>
+      let titulo = document.getElementById("titulo")
+      let descricao = document.getElementById("DESCRICAO")
+      let users = JSON.parse(localStorage.getItem("USUARIOS"))
+      let loja
+
+      console.log(users)
+      for(let i=0; i < users.length; i++){
+        if(users[i].nome == localStorage.getItem("lojaselecionada")){
+          lojaselecionada = users[i]
+          titulo.innerHTML = `<h1>${lojaselecionada.nome}</h1>`
+
+          descricao.innerHTML = `
+          <span>
+            <strong>Descrição:</strong>
+              <p>${lojaselecionada.descricao}</p>
+            </span>
+          `          
+        }
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
