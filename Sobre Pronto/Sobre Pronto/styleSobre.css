@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+#navbarla{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,0,1) 100%);
+    font-family: 'Sansita', sans-serif;
+    font-size: 24px;
+}
+.sombra{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.sombra:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+#logo{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#logo:hover{
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+#h2{
+    color: rgb(19, 1, 126);
+    font-family: 'Sansita', sans-serif;
+    font-size: 40px;   
+}
+#h22{
+    color: rgb(19, 1, 126);
+    font-family: 'Sansita', sans-serif;
+    font-size: 40px;
+}
