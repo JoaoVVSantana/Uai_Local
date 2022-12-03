@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+#navbarla{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,0,1) 100%);
+    font-family: 'Sansita', sans-serif;
+    font-size: 24px;
+}
+.sombra{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.sombra:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+#logo{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#logo:hover{
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+#CONTEUDO > div{
+    font-family: 'Sansita', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 70px;
+    justify-content: center;
+}
+#CARROUSEL {
+    width:50%;
+    display: flex;
+    align-items: center;
+ 
+}
+#DESCRICAO {
+    font-family: 'Sansita', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 50px;
+    justify-content: center;
+}
+#Redes_Sociais{
+    font-family: 'Sansita', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: auto 0px;
+    justify-content: center;
+    display: flex;
+}
+ a {
+    text-decoration: none;
+    color: rgb(15, 14, 14) ;
+}
+.fotos{
+    width: 600px;
+    height: 400px;
+}
+.pro{
+    background-color: rgb(221, 191, 19);
+}
+.pra{
+    background-color:rgb(221, 191, 19);
+}

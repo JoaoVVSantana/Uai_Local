@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--Link css comum-->
+    <link rel="stylesheet" href="StyleReparos.css">
+    
+    <title>Uai Reparos</title>
+</head>
+<body>
+    <!--Início navbar-->
+    <header class="bg-light" id="navbarla">
+        <nav class="navbar navbar-expand-lg px-3">
+            <div class="container-fluid nopadding">
+                <a class="navbar-brand" id="logo" href="../Home/Home.html"><img src="../imagens/logoUaiLocal.jpeg" width="160" height="60" alt="Logo UAI LOCAL" id="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active sombra" href="../Home/Home.html">Página Inicial</a>
+                        </li>
+                        <li class="nav-item pt-2 barra">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link active sombra" href="../Sobre Pronto/Sobre Pronto/Sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item pt-2 barra">|</li>
+                        <li class="nav-item">
+                            <a class="nav-link active sombra" href="../Cadastro_Daniel-Lucas/cadastro/index.html">Faça o cadastro da sua empresa</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Fim navbar-->
+
+    <!--Categorias com drop-->
+    <br><br>
+    <div class="btn-group categorias">
+        <button type="button" class="btn btn-warning dropdown-toggle botoncat" data-bs-toggle="dropdown" aria-expanded="false">
+            <h2>Reparos</h2>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item fonte" href="../Categorias Beleza/CategoriasBeleza.html">Beleza</a></li>
+            <li><a class="dropdown-item fonte" href="../Categorias Comidas/CategoriasComidas.html">Comidas</a></li>
+            <li><a class="dropdown-item fonteReparos" href="../Categorias Reparos/CategoriasReparos.html">Reparos</a></li>
+            <li><a class="dropdown-item fonte" href="../Categorias Roupas/CategoriasRoupas.html">Roupas</a></li>
+          </ul>
+      </div>
+    <!--Fim Categorias-->
+
+    <!--Cards-->
+    <br><br>
+    <div class="container text-center">
+        <div id="Cards" class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <a href="../Categorias Reparos/reparos2/ReparosCelular.html" target="_blank" rel="noopener norrefer" class="lojaa">
+                        <img src="../imagens/Logo reparos celular.jpeg" class="card-img-top" alt="Logo" style="width: 98%; height: 300px">
+                        <div class="card-body">
+                            <h4 class="card-title"><b class="fonte">Mateus celulares</b></h4>
+                            <p class="card-text fonte">Reparos</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem; ">
+                    <a href="../Categorias Reparos/reparos2/Reparoseletrodomesticos.html" target="_blank" rel="noopener norrefer" class="lojaa">
+                        <img src="../imagens/Logo reparos geladeira.jpeg" class="card-img-top" alt="Logo" style="width: 100%; height: 300px">
+                        <div class="card-body" >
+                            <h4 class="card-title"><b class="fonte">Tonhão da geladeira</b></h4>
+                            <p class="card-text fonte">Reparos</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fim cards-->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script>
+        let nichoSelecionado = "Reparos";
+        function guardarloja(nomedaloja)
+        {
+            localStorage.setItem("lojaselecionada", nomedaloja)
+            window.location.href="../Cadastro_Daniel-Lucas/generico.html"
+        }
+    </script>
+     <script src="../Cadastro_Daniel-Lucas/cadastro/cad.js"></script>  
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+     <script src="../Cadastro_Daniel-Lucas/cards.js"></script>
+</body>
+</html>

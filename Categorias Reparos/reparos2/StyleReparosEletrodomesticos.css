@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+
+#navbarla{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,0,1) 100%);
+    font-family: 'Sansita', sans-serif;
+    font-size: 24px;
+}
+.sombra{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.sombra:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+#logo{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#logo:hover{
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+
+main
+{
+    margin:0 auto;
+
+}
+
+
+#inicio > div 
+{
+    
+    font-size: 28px;
+    font-family: 'Sansita', sans-serif;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#carrossel
+{
+    margin:40px auto; /*alterar o tamanho do carrossel*/
+ align-items: center;
+    display: flex;
+    max-width: 55%;
+    
+
+ } 
+ #carrossel img
+{ 
+
+     width: 60%;
+    height: 35vh;
+
+ } 
+.botao {
+    background-color: rgb(255, 217, 0);
+}
+
+#informacoes
+{
+    margin:0 auto;
+    font-size: 20px;
+    font-family: 'Sansita',sans-serif;
+    max-width: 778px;
+}
+ul 
+{
+    text-align:left;
+}
+
+#contatos
+{
+    margin: 0 auto;
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.redesSociais
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+} 
+
+.redeSocial
+{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+
+}
+.redeSocial img{
+    margin-right: 15px;
+}

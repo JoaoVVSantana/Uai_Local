@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+#navbarla{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,0,1) 100%);
+    font-family: 'Sansita', sans-serif;
+    font-size: 24px;
+}
+.sombra{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.sombra:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+h2{
+    font-family: 'Sansita', sans-serif;
+}
+
+h4{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+h4:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+#logo{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#logo:hover{
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+.lojaa{
+    text-decoration: none;
+    color: black;
+    align-items: flex-end;
+}
+
+.lojaa:hover{
+    transition: 0.5s;
+}
+
+.card {
+    /* Adiciona sombras para criar o efeito de card */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+    align-items: center;
+    text-align: center;
+    }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+.fonte{
+    font-family: 'Sansita', sans-serif;
+    text-align: center;
+}
+.fonteReparos{
+    font-family: 'Sansita', sans-serif;
+    text-align: center;
+    background-color: rgb(212, 233, 27);
+}
+.categorias{ /*Botão Categorias*/
+    margin-left: 10px;
+}
+.botoncat{
+    width: 150px;
+}
