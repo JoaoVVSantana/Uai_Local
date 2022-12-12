@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+
+#navbarla{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,0,1) 100%);
+    font-family: 'Sansita', sans-serif;
+    font-size: 24px;
+}
+.sombra{
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.sombra:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+#logo{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#logo:hover{
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+
+
+.descricao{
+    font-family: 'Sansita', sans-serif;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color:black
+}
+
+a>img{
+
+    width: 150px;
+    border: solid white;
+    cursor: pointer; 
+}
+
+.card{
+    padding: 15px;
+    border-color: aliceblue;
+}
+#header{
+    margin: 0 auto;
+    max-width: 850px;
+
+}
+.categorias{
+    text-align: center;
+    font-size: 50px;
+    cursor: auto;
+    font-family: 'Sansita', sans-serif;
+    background-color: #f7ea39;
+    border: solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+
+}
+.img{
+    width: 700px;
+    height: 400px;
+}
